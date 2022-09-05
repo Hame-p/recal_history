@@ -1,0 +1,24 @@
+
+This folder contains the datasets and matlab code to analyze the ventriloquist bias and the immediate aftereffect in 
+Kayser, Park & Heuer "The history of multisensory discrepancies affects the ventriloquism effect and the immediate aftereffect differentially".
+
+The analysis was run in Matlab R2017a.
+
+
+Datafiles (see Table 1):
+-----------------------
+DataExp1to10: Contains the data for Experiments 1-10 
+DataExp11: The data for experiment 11
+
+Main analysis routines:
+----------------------
+Analyze_historyeffect.m for Exps 1-10. 
+Produces Figure 1b and 2.
+
+Analyze_Exp11.m for Exp 11
+Produces Figure 3.
+
+
+local statistical routines (ensure these are accessible)
+----------------------
+The codes uses functions to compute glms and boostrap CIs. These are in /local/
